@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Review your H&P FATION HUB shopping cart.">
+  <title>Your Cart | H&amp;P FATION HUB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cart-page">
+  <input class="cart-page-state" type="checkbox" id="select-men-1" aria-label="Add Everyday Cotton Tee">
+  <input class="cart-page-state" type="checkbox" id="select-men-2" aria-label="Add Weekend Overshirt">
+  <input class="cart-page-state" type="checkbox" id="select-men-3" aria-label="Add Everyday Chinos">
+  <input class="cart-page-state" type="checkbox" id="select-men-4" aria-label="Add Classic Crew Sweatshirt">
+  <input class="cart-page-state" type="checkbox" id="select-women-1" aria-label="Add Relaxed Linen Shirt">
+  <input class="cart-page-state" type="checkbox" id="select-women-2" aria-label="Add Everyday Midi Dress">
+  <input class="cart-page-state" type="checkbox" id="select-women-3" aria-label="Add Weekend Wide-Leg Pants">
+  <input class="cart-page-state" type="checkbox" id="select-women-4" aria-label="Add Soft Knit Cardigan">
+  <input class="cart-page-state" type="checkbox" id="select-kids-1" aria-label="Add Colour Pop T-Shirt">
+  <input class="cart-page-state" type="checkbox" id="select-kids-2" aria-label="Add Play-All-Day Dungarees">
+  <input class="cart-page-state" type="checkbox" id="select-kids-3" aria-label="Add Comfy Jogger Set">
+  <input class="cart-page-state" type="checkbox" id="select-kids-4" aria-label="Add Sunny Day Dress">
+  <span class="cart-target" id="men-1"></span>
+  <span class="cart-target" id="men-2"></span>
+  <span class="cart-target" id="men-3"></span>
+  <span class="cart-target" id="men-4"></span>
+  <span class="cart-target" id="women-1"></span>
+  <span class="cart-target" id="women-2"></span>
+  <span class="cart-target" id="women-3"></span>
+  <span class="cart-target" id="women-4"></span>
+  <span class="cart-target" id="kids-1"></span>
+  <span class="cart-target" id="kids-2"></span>
+  <span class="cart-target" id="kids-3"></span>
+  <span class="cart-target" id="kids-4"></span>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">H&amp;P <span>FATION HUB</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="kids.html">Kids</a>
+    </nav>
+    <div class="header-actions">
+      <a class="login-link" href="login.html">Log in</a>
+      <form class="site-search" action="https://www.google.com/search" method="get" target="_blank" role="search">
+        <input type="hidden" name="tbm" value="shop">
+        <input type="search" name="q" placeholder="Search clothing..." aria-label="Search clothing">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+        </button>
+      </form>
+      <a class="cart-link" href="cart.html" aria-label="Open shopping cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.4L22 9H6"></path><circle cx="10" cy="21" r="1"></circle><circle cx="18" cy="21" r="1"></circle></svg>
+        <span>Cart</span><span class="cart-count" aria-label="items in cart"></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="cart-main section-wrap">
+    <div class="cart-heading">
+      <div>
+        <p class="eyebrow">YOUR EVERYDAY FAVOURITES</p>
+        <h1>Your shopping cart</h1>
+      </div>
+      <a class="cart-continue" href="men.html">Continue shopping</a>
+    </div>
+
+    <section class="cart-selected" aria-label="Selected cart items">
+      <h2>Items in your cart</h2>
+      <p class="cart-empty">Your cart is empty. Add a favourite from the collections below.</p>
+      <div class="cart-selected-line cart-selected-men-1"><span>Everyday Cotton Tee</span><strong>₹799</strong><label for="select-men-1">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-men-2"><span>Weekend Overshirt</span><strong>₹1,899</strong><label for="select-men-2">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-men-3"><span>Everyday Chinos</span><strong>₹1,599</strong><label for="select-men-3">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-men-4"><span>Classic Crew Sweatshirt</span><strong>₹1,499</strong><label for="select-men-4">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-women-1"><span>Relaxed Linen Shirt</span><strong>₹1,499</strong><label for="select-women-1">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-women-2"><span>Everyday Midi Dress</span><strong>₹1,899</strong><label for="select-women-2">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-women-3"><span>Weekend Wide-Leg Pants</span><strong>₹1,699</strong><label for="select-women-3">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-women-4"><span>Soft Knit Cardigan</span><strong>₹2,199</strong><label for="select-women-4">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-kids-1"><span>Colour Pop T-Shirt</span><strong>₹599</strong><label for="select-kids-1">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-kids-2"><span>Play-All-Day Dungarees</span><strong>₹1,299</strong><label for="select-kids-2">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-kids-3"><span>Comfy Jogger Set</span><strong>₹1,199</strong><label for="select-kids-3">Remove</label><a href="cart.html">Remove</a></div>
+      <div class="cart-selected-line cart-selected-kids-4"><span>Sunny Day Dress</span><strong>₹999</strong><label for="select-kids-4">Remove</label><a href="cart.html">Remove</a></div>
+    </section>
+
+    <section class="cart-catalog" aria-label="Add more items">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">MADE FOR EVERY DAY</p>
+          <h2>Add more favourites</h2>
+        </div>
+        <p>Pick another piece to add it to your cart.</p>
+      </div>
+      <div class="cart-product-grid">
+        <article class="cart-product">
+          <div class="product-image men-product-1"></div>
+          <div class="product-info"><h3>Everyday Cotton Tee</h3><strong>₹799</strong></div>
+          <label for="select-men-1"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image men-product-2"></div>
+          <div class="product-info"><h3>Weekend Overshirt</h3><strong>₹1,899</strong></div>
+          <label for="select-men-2"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image men-product-3"></div>
+          <div class="product-info"><h3>Everyday Chinos</h3><strong>₹1,599</strong></div>
+          <label for="select-men-3"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image men-product-4"></div>
+          <div class="product-info"><h3>Classic Crew Sweatshirt</h3><strong>₹1,499</strong></div>
+          <label for="select-men-4"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image women-product-1"></div>
+          <div class="product-info"><h3>Relaxed Linen Shirt</h3><strong>₹1,499</strong></div>
+          <label for="select-women-1"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image women-product-2"></div>
+          <div class="product-info"><h3>Everyday Midi Dress</h3><strong>₹1,899</strong></div>
+          <label for="select-women-2"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image women-product-3"></div>
+          <div class="product-info"><h3>Weekend Wide-Leg Pants</h3><strong>₹1,699</strong></div>
+          <label for="select-women-3"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image women-product-4"></div>
+          <div class="product-info"><h3>Soft Knit Cardigan</h3><strong>₹2,199</strong></div>
+          <label for="select-women-4"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image kids-product-1"></div>
+          <div class="product-info"><h3>Colour Pop T-Shirt</h3><strong>₹599</strong></div>
+          <label for="select-kids-1"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image kids-product-2"></div>
+          <div class="product-info"><h3>Play-All-Day Dungarees</h3><strong>₹1,299</strong></div>
+          <label for="select-kids-2"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image kids-product-3"></div>
+          <div class="product-info"><h3>Comfy Jogger Set</h3><strong>₹1,199</strong></div>
+          <label for="select-kids-3"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+        <article class="cart-product">
+          <div class="product-image kids-product-4"></div>
+          <div class="product-info"><h3>Sunny Day Dress</h3><strong>₹999</strong></div>
+          <label for="select-kids-4"><span>Add to cart</span><span>Remove from cart</span></label>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html">H&amp;P <span>FATION HUB</span></a>
+    <p>Everyday style for everyone.</p>
+    <span>© 2025 H&amp;P FATION HUB</span>
+  </footer>
+</body>
+</html>
